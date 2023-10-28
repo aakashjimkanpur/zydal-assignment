@@ -1,9 +1,8 @@
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
-ctx.font = "12px sans-serif";
+ctx.font = "20px Arial";
 ctx.fillStyle = "red";
-ctx.textAlign = "left";
-ctx.textBaseline = "left";
+ctx.textAlign = "center";
 ctx.fillText("A", canvas.width / 2, canvas.height / 2);
 
 function RGBAToHexA(r, g, b, a) {
